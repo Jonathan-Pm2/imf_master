@@ -1,0 +1,60 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled9.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyMN2Tcz9u+aX0MEjmfilbsu",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Jonathan-Pm2/imf_master/blob/master/proyecto\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 180
+        },
+        "id": "rZN8C8pChjzG",
+        "outputId": "ea7e6bda-5d9c-4b16-d844-14b03ab8ec9e"
+      },
+      "source": [
+        "path1 = './Tweets.txt' # ./ marca que se busque en el mismo directorio que el Notebook\n",
+        "fichero = open(path1) # Se abre el archivo de tweets"
+      ],
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "FileNotFoundError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mFileNotFoundError\u001b[0m                         Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-1-025e008e40b4>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0mpath1\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0;34m'./Tweets.txt'\u001b[0m \u001b[0;31m# ./ marca que se busque en el mismo directorio que el Notebook\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 2\u001b[0;31m \u001b[0mfichero\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mpath1\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;31m# Se abre el archivo de tweets\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mFileNotFoundError\u001b[0m: [Errno 2] No such file or directory: './Tweets.txt'"
+          ]
+        }
+      ]
+    }
+  ]
+}
